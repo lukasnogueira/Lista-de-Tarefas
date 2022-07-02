@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url(../imagens/7-gradient-background-animation-CSS.avif);
+}
+header{
+    width: 80%;
+    height: 10rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #545678;
+    border: solid 10px #c8c7d6;
+    border-radius: 5rem;
+    font-size: 5rem;
+    color: #adaebe;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #b8bade;
+    width: 80%;
+    height: 30rem;
+    border-radius: 5rem;
+    
+}
+
+body button{
+    width: 300px;
+    height: 2rem;
+    border-radius: 3rem;
+    background-color: #6b6d97;
+    color: #e0e0f5;
+}
+
+.content input{
+    position: relative;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 3rem;
+    background-color: #6b6d97;
+    color: #fff3f3
+}
+#tarefas .inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content #tarefas{
+    margin-top: 1rem;
+    width: 95%;
+    height: 95s%;
+    display: flex;
+
+    
+}
+
+.content .tarefa {
+    width: 40rem;
+
+}
+
+.horario, .tarefa {
+    padding-left: 10PX;
+}
+
+.inputs ::placeholder{
+    color: #bfbaba;
+    
+}
+
+
+footer{
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
